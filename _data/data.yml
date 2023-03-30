@@ -44,15 +44,12 @@ sidebar:
         - item: Minipainting
         - item: Music
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       I've worked for companies of all kinds and shapes: small, medium, big young, old... That helps me define what I really want to do and 
+#       how to do it. My favorites were the very early-stage projects, I like being close to the product and the customers
+
 education:
     title: Education
     info:
@@ -87,7 +84,7 @@ experiences:
         details: |
           The goal of Citeazy was to provide a B2B MaaS (Mobility as a Service) mobile application to help employees to find the best way to commute.
           As the CTO of this very new project, I have
-           - helped design the product
+           - helped designing the product
            - designed and implemented the backend part of the product (GCP, Golang, Kubernetes)
            - interviewed and chosen an external company to develop the frontend part (React Native)
            - managed several technical partnerships with MaaS companies
@@ -96,17 +93,19 @@ experiences:
         time: 2018 - 2019
         company: Streamroot
         details: |
-          Streamroot provides a P2P video streaming technology to several customers (TF1, Canal+, FranceTV, M6, ...)
-          As a backend and system engineer, I've developped and deployed several features for the products.
+          Streamroot provides a P2P video streaming technology to several customers (TF1, Canal+, FranceTV, M6, ...).
+          As a backend and system engineer, I've developped, maintained and deployed several features on the product.
           I have
-           - migrated off MongoDB to PostgreSQL, to use GCP more as a PaaS than a IaaS
+           - migrated off MongoDB on to PostgreSQL, to use GCP more as a PaaS than a IaaS
            - participated in the microservice architecture
            - improved the way we used Kubernetes, to increase the availability/SLO
+           - designed and implemented new features from scratch
 
       - role: Lead Developer
         time: 2017 - 2018
         company: Wellbing
         details: |
+          Wellbing provided a B2B service to improve the employees' well-being at work.
           As the only developer, my mission in this early-stage start-up was to internalize the product that was developed by external developers.
           I have
            - managed the external developers for the transition
@@ -132,6 +131,7 @@ experiences:
             - implemented AWS Route 53 as a DNS provider into the product (PHP)
             - integrated Thales' Hardware Security Module into the product, for DNSSEC (FreeBSD, C, PHP)
             - cleaned technical debt
+            - helped the customer support team when needed
 projects:
     title: Projects
     # intro: >
