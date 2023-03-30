@@ -13,9 +13,9 @@ sidebar:
 
     # Sidebar links
     email: valtjo@gmail.com
-    phone: "+33624037086"
+    phone: "+33 6 24 03 70 86"
     timezone: Europe/Paris
-    # citizenship:
+    citizenship: French
     # website: blog.webjeda.com #do not add http://
     linkedin: valentin-tjoncke
     # xing: alandoe
@@ -73,34 +73,23 @@ experiences:
     info:
       - role: Lead Infra/Backend
         time: 2023 - Present
-        company: Streamroot
+        company: Streamroot (now Lumen Technologies)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          Starting from january, I b
+
       - role: Lead Infra
         time: 2020 - 2022
-        company: Streamroot
+        company: Streamroot (now Lumen Technologies)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          As the lead of infrastructure, I ensured the stability and resiliency of Streamroot's
+          products. I have
+            - industrialized all the infrastructure (Google Cloud Platform)
+            - managed and improved the monitoring stack (Prometheus, Thanos, Loki, Tempo, Grafana, Alertmanager)
+            - managed and improved the on-call duty system (OpsGenie)
+            - kept the GCP bills in check,
+            - provided guidelines for GCP and Kubernetes
+            - provided a CI/CD pipeline for the developers (Cloud Build, ArgoCD)
+
       - role: CTO
         time: 2019 - 2020
         company: Citeazy
@@ -116,6 +105,7 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
+
       - role: Backend and System Engineer
         time: 2018 - 2019
         company: Streamroot
@@ -131,9 +121,10 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
+
       - role: Lead Developer
         time: 2017 - 2018
-        company: Weelbing
+        company: Wellbing
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -146,12 +137,17 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
+
       - role: Senior Developer
         time: 2016 - 2017
         company: ORIGIN Investing
         details: |
-          As the first and only developer in this very early-stage start-up, I had to:
-            - 
+          ORIGIN Investing was a crowd-lending platform for businesses.
+          As the first and only developer in this very early-stage start-up, I had to create everything:
+          - pick an infrastructure provider (GCP)
+          - design and implement the backend (AppEngine, Golang, PostgreSQL)
+          - implement the frontend (React)
+          - create a basic data-pipeline for BI purposes
           
       - role: R&D Engineer
         time: 2014 - 2016
@@ -164,11 +160,15 @@ experiences:
             - PHP
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # intro: >
+    #   You can list your side projects in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
+      - title: helm-gcs
+        link: https://github.com/hayorov/helm-gcs
+        tagline: "Original author of the helm-gcs plugin, that allows you to use Google Cloud Storage to store your Helm charts."
+    
       - title: diceware
         link: "https://github.com/nouney/diceware"
         tagline: "Golang package. Diceware is a method for creating passphrases, passwords, and other cryptographic variables using ordinary dice as a hardware random number generator."
@@ -182,10 +182,6 @@ oss:
     intro: >
       I like to give back to the open-source projects that I use. 
     contributions:
-      - title: helm-gcs
-        link: https://github.com/hayorov/helm-gcs
-        tagline: "Original author of the helm-gcs plugin, that allows you to use Google Cloud Storage to store your Helm charts."
-
       - title: Helm
         link: https://github.com/helm/helm
         tagline: "A Kubernetes package manager."
@@ -202,38 +198,13 @@ oss:
         link: https://github.com/fission/fission
         tagline: "Fast and Simple Serverless Functions for Kubernetes."
 
-# publications:
-#     title: Publications
-#     intro: |
-#       You can list your publications in this section. Lorem ipsum dolor sit
-#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#       bibendum fringilla a eu lectus.
-#     papers:
-#       - title: The Art of Computer Programming
-#         link: "#"
-#         authors: Donald E. Knuth
-#         conference: Addison-Wesley, 1968
-
-#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#         link: "#"
-#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-#       - title: A syntax directed compiler for Algol 60
-#         link: "#"
-#         authors: Edgar T. Irons
-#         conference: "Comm. ACM 4 (1961), 51–55"
-
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
       - name: Kubernetes
         level: 98%
-
       - name: GCP
         level: 90%
-
       - name: Golang
         level: 90%
 
