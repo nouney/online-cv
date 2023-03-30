@@ -42,7 +42,7 @@ sidebar:
       title: Interests
       info:
         - item: Minipainting
-          link:
+        - item: Music
 
 career-profile:
     title: Career Profile
@@ -59,14 +59,6 @@ education:
       - degree: Master
         university: EPITECH
         time: 2008 - 2013
-        # details: |
-        #   Describe your study here lorem ipsum dolor sit amet, consectetuer
-        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        #   sociis natoque penatibus et magnis dis parturient montes, nascetur
-        #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        #   pretium quis, sem.
-        #     - Bullet point
-        #     - Bullet point
 
 experiences:
     title: Experiences
@@ -74,8 +66,7 @@ experiences:
       - role: Lead Infra/Backend
         time: 2023 - Present
         company: Streamroot (now Lumen Technologies)
-        details: |
-          Starting from january, I b
+        # details: |
 
       - role: Lead Infra
         time: 2020 - 2022
@@ -86,57 +77,40 @@ experiences:
             - industrialized all the infrastructure (Google Cloud Platform)
             - managed and improved the monitoring stack (Prometheus, Thanos, Loki, Tempo, Grafana, Alertmanager)
             - managed and improved the on-call duty system (OpsGenie)
-            - kept the GCP bills in check,
-            - provided guidelines for GCP and Kubernetes
+            - kept the GCP bills in check
+            - provided guidelines for GCP, Kubernetes and containerization
             - provided a CI/CD pipeline for the developers (Cloud Build, ArgoCD)
 
       - role: CTO
         time: 2019 - 2020
         company: Citeazy
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          The goal of Citeazy was to provide a B2B MaaS (Mobility as a Service) mobile application to help employees to find the best way to commute.
+          As the CTO of this very new project, I have
+           - helped design the product
+           - designed and implemented the backend part of the product (GCP, Golang, Kubernetes)
+           - interviewed and chosen an external company to develop the frontend part (React Native)
+           - managed several technical partnerships with MaaS companies
 
       - role: Backend and System Engineer
         time: 2018 - 2019
         company: Streamroot
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          Streamroot provides a P2P video streaming technology to several customers (TF1, Canal+, FranceTV, M6, ...)
+          As a backend and system engineer, I've developped and deployed several features for the products.
+          I have
+           - migrated off MongoDB to PostgreSQL, to use GCP more as a PaaS than a IaaS
+           - participated in the microservice architecture
+           - improved the way we used Kubernetes, to increase the availability/SLO
 
       - role: Lead Developer
         time: 2017 - 2018
         company: Wellbing
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          As the only developer, my mission in this early-stage start-up was to internalize the product that was developed by external developers.
+          I have
+           - managed the external developers for the transition
+           - participated in the product roadmap
 
       - role: Senior Developer
         time: 2016 - 2017
@@ -153,11 +127,11 @@ experiences:
         time: 2014 - 2016
         company: EfficientIP
         details: |
-          Working on a DDI (DNS, DHCP, IPAM) product, shipped to the customers (IBM, HP, Netflix, ...)
-            - FreeBSD
-            - PostgreSQL
-            - C
-            - PHP
+          Working on a DDI (DNS, DHCP, IPAM) product, shipped to the customers (IBM, HP, Netflix, several universities and ministries across the world).
+          I have
+            - implemented AWS Route 53 as a DNS provider into the product (PHP)
+            - integrated Thales' Hardware Security Module into the product, for DNSSEC (FreeBSD, C, PHP)
+            - cleaned technical debt
 projects:
     title: Projects
     # intro: >
