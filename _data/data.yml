@@ -158,7 +158,7 @@ oss:
       I like to give back to the open-source projects that I use. 
     contributions:
       - title: Helm
-        link: "http://github.com/helm/helm"
+        # link: "http://github.com/helm/helm"
         tagline: "A Kubernetes package manager."
 
       - title: Packer
