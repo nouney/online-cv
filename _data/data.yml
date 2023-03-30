@@ -48,8 +48,8 @@ career-profile:
     title: Career Profile
     summary: |
       I've worked for companies of all kinds and shapes: small, medium, large, young, old... This had helped me define what I really want to do and 
-      how to do it. My favorite projects were the one that were at a very early stage, I like being close to the customers and the product. I'm more interested in the "what" than the
-      "how", that's why I have no problem moving from one technology to another, while keeping a pragmatic mindset.
+      how to do it. My favorite projects were the one that were at a very early stage, because I like being close to the customers and the product. 
+      I'm more interested in the "what" than the "how", that's why I have no problem moving from one technology to another, while keeping a pragmatic mindset.
 
 education:
     title: Education
@@ -127,7 +127,7 @@ experiences:
         time: 2014 - 2016
         company: EfficientIP
         details: |
-          Working on a DDI (DNS, DHCP, IPAM) product, shipped to the customers (IBM, HP, Netflix, several universities and ministries across the world).
+          Working on a DDI (DNS, DHCP, IPAM) product, directly shipped to the customers (IBM, HP, Netflix, several universities and ministries across the world).
           I have
             - implemented AWS Route 53 as a DNS provider into the product (PHP)
             - integrated Thales' Hardware Security Module into the product, for DNSSEC (FreeBSD, C, PHP)
