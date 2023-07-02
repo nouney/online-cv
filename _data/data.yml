@@ -69,7 +69,7 @@ experiences:
           products. I have
             - Industrialized all the infrastructure (Google Cloud Platform);
             - Managed and improved the monitoring stack (Prometheus, Thanos, Loki, Tempo, Grafana, Alertmanager);
-            - Managed and developped the on-call duty system (OpsGenie);;
+            - Managed and developped the on-call duty system (OpsGenie);
             - Kept the GCP bills in check;
             - Provided guidelines for GCP, Kubernetes, containerization, security, networking, etc;
             - Provided a CI/CD pipeline for the developers (Cloud Build, ArgoCD);
