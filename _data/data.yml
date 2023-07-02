@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Valentin Tjoncke
-    tagline: Lead Infra/Backend
+    tagline: Lead Infra
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -47,9 +47,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I've worked for companies of all kinds and shapes: small, medium, large, young, old... This had helped me define what I really want to do and 
-      how to do it. My favorite projects were the one that were at a very early stage, because I like being close to the customers and the product. 
-      I'm more interested in the "what" than the "how", that's why I have no problem moving from one technology to another, while keeping a pragmatic mindset.
+      I've worked for companies of different kinds and sizes: small, medium, large, young, old... This had helped me define what I really want to do and 
+      how to do it. My favorite projects were the one that were at an early stage of their development, because I like being close to the customers and the product. 
+      I enjoy moving from one technology to another, while keeping a pragmatic mindset to deliver the most optimized solution to the users.
 
 education:
     title: Education
@@ -61,23 +61,18 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Infra/Backend
-        time: 2023 - Present
-        company: Streamroot (now Lumen Technologies)
-        # details: |
-
-      - role: Lead Infra
-        time: 2020 - 2022
+      - role: Lead Infrastructure
+        time: 2020 - Present
         company: Streamroot (now Lumen Technologies)
         details: |
-          As the lead of infrastructure, I ensured the stability and resiliency of Streamroot's
+          As the lead of infrastructure, I ensured the stability and resiliency of the company's
           products. I have
-            - industrialized all the infrastructure (Google Cloud Platform)
-            - managed and improved the monitoring stack (Prometheus, Thanos, Loki, Tempo, Grafana, Alertmanager)
-            - managed and improved the on-call duty system (OpsGenie)
-            - kept the GCP bills in check
-            - provided guidelines for GCP, Kubernetes and containerization
-            - provided a CI/CD pipeline for the developers (Cloud Build, ArgoCD)
+            - Industrialized all the infrastructure (Google Cloud Platform);
+            - Managed and improved the monitoring stack (Prometheus, Thanos, Loki, Tempo, Grafana, Alertmanager);
+            - Managed and developped the on-call duty system (OpsGenie);;
+            - Kept the GCP bills in check;
+            - Provided guidelines for GCP, Kubernetes, containerization, security, networking, etc;
+            - Provided a CI/CD pipeline for the developers (Cloud Build, ArgoCD);
 
       - role: CTO
         time: 2019 - 2020
@@ -85,22 +80,22 @@ experiences:
         details: |
           The goal of Citeazy was to provide a B2B MaaS (Mobility as a Service) mobile application to help employees to find the best way to commute.
           As the CTO of this very new project, I have
-           - helped designing the product
-           - designed and implemented the backend part of the product (GCP, Golang, Kubernetes)
-           - interviewed and chosen an external company to develop the frontend part (React Native)
-           - managed several technical partnerships with MaaS companies
+           - Helped designing the product;
+           - Designed and implemented the backend part of the product (GCP, Golang, Kubernetes);
+           - Interviewed and chosen an external company to develop the frontend part (React Native);
+           - Managed several technical partnerships with MaaS companies;
 
       - role: Backend and System Engineer
         time: 2018 - 2019
         company: Streamroot
         details: |
-          Streamroot provides a P2P video streaming technology to several customers (TF1, Canal+, FranceTV, M6, ...).
+          Streamroot provides a P2P video streaming technology to broadcasters such as TF1, Canal+, FranceTV, M6.
           As a backend and system engineer, I've developped, maintained and deployed several features on the product.
           I have
-           - migrated off MongoDB on to PostgreSQL, to use GCP more as a PaaS than a IaaS
-           - participated in the microservice architecture
-           - improved the way we used Kubernetes, to increase the availability/SLO
-           - designed and implemented new features from scratch
+           - Migrated off MongoDB on to PostgreSQL, to use GCP more as a PaaS than a IaaS;
+           - Participated in the microservice architecture;
+           - Improved the way we used Kubernetes to increase the availability/SLO;
+           - Designed and implemented new features from scratch;
 
       - role: Lead Developer
         time: 2017 - 2018
@@ -109,19 +104,19 @@ experiences:
           Wellbing provided a B2B service to improve the employees' well-being at work.
           As the only developer, my mission in this early-stage start-up was to internalize the product that was developed by external developers.
           I have
-           - managed the external developers for the transition
-           - participated in the product roadmap
+           - Managed the external developers for the transition;
+           - Participated in the product roadmap;
 
       - role: Senior Developer
         time: 2016 - 2017
         company: ORIGIN Investing
         details: |
           ORIGIN Investing was a crowd-lending platform for businesses.
-          As the first and only developer in this very early-stage start-up, I had to create everything:
-          - pick an infrastructure provider (GCP)
-          - design and implement the backend (AppEngine, Golang, PostgreSQL)
-          - implement the frontend (React)
-          - create a basic data-pipeline for BI purposes
+          As the first and only developer in this very early-stage start-up, I had to build everything from scratch; I have:
+          - Picked an infrastructure provider (GCP);
+          - Designed and implement the backend (AppEngine, Golang, PostgreSQL);
+          - Implemented the frontend (React);
+          - Created a basic data-pipeline for BI purposes;
           
       - role: R&D Engineer
         time: 2014 - 2016
@@ -129,10 +124,10 @@ experiences:
         details: |
           Working on a DDI (DNS, DHCP, IPAM) product, directly shipped to the customers (IBM, HP, Netflix, several universities and ministries across the world).
           I have
-            - implemented AWS Route 53 as a DNS provider into the product (PHP)
-            - integrated Thales' Hardware Security Module into the product, for DNSSEC (FreeBSD, C, PHP)
-            - cleaned technical debt
-            - helped the customer support team when needed
+            - Implemented AWS Route 53 as a DNS provider into the product (PHP);
+            - Integrated Thales' Hardware Security Module into the product, for DNSSEC (FreeBSD, C, PHP);
+            - Cleaned technical debt;
+            - Helped the customer support team when needed;
 projects:
     title: Projects
     # intro: >
