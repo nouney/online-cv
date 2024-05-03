@@ -71,7 +71,7 @@ experiences:
             - Industrialized all the infrastructure (Google Cloud Platform);
             - Designed multi-region architecture;
             - Improved developer experience;
-            - Designed a CI/CD pipeline for the developers (Github Action, Argo CD, Argo Workflows)
+            - Designed a CI/CD pipeline for the developers (Github Action, Argo CD, Argo Workflows);
             - Managed and improved observability capabilities (Datadog);
             - Kept the GCP bills in check;
 
