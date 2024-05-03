@@ -62,7 +62,7 @@ education:
 experiences:
     title: Experiences
     info:
-      - Role: Lead SRE
+      - role: Lead SRE
         time: 2023 - Present
         company: Regate (by Qonto)
         details: |
