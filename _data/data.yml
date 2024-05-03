@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Valentin Tjoncke
-    tagline: Lead Infra
+    tagline: Lead SRE
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -62,8 +62,21 @@ education:
 experiences:
     title: Experiences
     info:
+      - Role: Lead SRE
+        time: 2023 - Present
+        company: Regate (by Qonto)
+        details: |
+          As the lead SRE, I have
+            - Managed and organized the SRE team;
+            - Industrialized all the infrastructure (Google Cloud Platform);
+            - Designed multi-region architecture;
+            - Improved developer experience;
+            - Designed a CI/CD pipeline for the developers (Github Action, Argo CD, Argo Workflows)
+            - Managed and improved observability capabilities (Datadog);
+            - Kept the GCP bills in check;
+
       - role: Lead Infrastructure
-        time: 2020 - Present
+        time: 2020 - 2023
         company: Streamroot (now Lumen Technologies)
         details: |
           As the lead of infrastructure, I ensured the stability and resiliency of the company's
@@ -73,7 +86,7 @@ experiences:
             - Managed and developped the on-call duty system (OpsGenie);
             - Kept the GCP bills in check;
             - Provided guidelines for GCP, Kubernetes, containerization, security, networking, etc;
-            - Provided a CI/CD pipeline for the developers (Cloud Build, ArgoCD);
+            - Provided a CI/CD pipeline for the developers (Cloud Build, Argo CD);
 
       - role: CTO
         time: 2019 - 2020
@@ -173,11 +186,11 @@ skills:
     title: Skills &amp; Proficiency
     toolset:
       - name: Kubernetes
-        level: 98%
+        level: 90%
       - name: GCP
-        level: 90%
+        level: 80%
       - name: Golang
-        level: 90%
+        level: 80%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
